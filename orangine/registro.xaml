@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="orangine.registro">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            
+            
+            <Label x:Name="lblUsuario" FontSize="16" TextColor="red" HorizontalTextAlignment="End"/>
+            <Label Text="COMPRA EN LINEA" FontSize="24" TextColor="Orange" HorizontalTextAlignment="Center"/>
+            
+
+            <Image Source="agua.png" HeightRequest="150"  />
+            <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text=" Agua Andean Spring" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                <Label Text="$0.30 – $1.20"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked" Grid.Row="0" Grid.Column="2" />
+            </Grid>
+            
+            <Image Source="american.png" HeightRequest="150"  />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="American Cola" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_1" Grid.Row="0" Grid.Column="2" />
+            </Grid>
+
+            <Image Source="buzz.png" HeightRequest="150"  />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Orangine Buzz" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_2" Grid.Row="0" Grid.Column="2" />
+            </Grid>
+            
+            <Image Source="citrus.png" HeightRequest="150"  />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text=" Orangine Citrus" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                <Label Text="$0.40 – $1.50"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_3" Grid.Row="0" Grid.Column="2" />
+            </Grid>
+
+
+                <Image Source="enanitos.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Orangine Enanitos" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 – $0.85"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_4" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="energine.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Energine" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.50"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_5" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="free.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Jugo Free" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 - $0.75"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_6" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="fresa.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Orangine Fresa" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_7" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="guayaco.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Orangine Guayaco" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_8" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="manzana.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Orangine Manzana" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_9" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="naranja.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Orangine Naranja" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_10" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="pina.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Orangine Piña" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_11" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="mora.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Orangine Mora" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_12" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="mineral.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Agua Mineral" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_13" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+                <Image Source="tonica.png" HeightRequest="150"  />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Agua Tonica" HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="0"  />
+                    <Label Text="$0.25 – $2.00"  HorizontalOptions="Center" FontSize="18" Grid.Row="0" Grid.Column="1"  />
+                    <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Clicked="ImageButton_Clicked_14" Grid.Row="0" Grid.Column="2" />
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="orangine.citrus">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="PRODUCTO SELECCIONADO" FontSize="24" TextColor="Orange" HorizontalTextAlignment="Center"/>
+
+            <Image Source="citrus.png" HeightRequest="250"  />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+
+
+                </Grid.ColumnDefinitions>
+
+                <Label Text="  Orangine Citrus" HorizontalOptions="Center" FontSize="24" Grid.Row="0" Grid.Column="0"  />
+
+
+            </Grid>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+
+                </Grid.ColumnDefinitions>
+                <Label Text="Tamaño" HorizontalOptions="Center" FontSize="20" TextColor="DarkBlue" Grid.Row="0" Grid.Column="0"  />
+                <Label Text="Precio" HorizontalOptions="Center" FontSize="20" TextColor="DarkBlue" Grid.Row="0" Grid.Column="1"  />
+                <Label Text="Cant" HorizontalOptions="Center" FontSize="20"  TextColor="DarkBlue" Grid.Row="0" Grid.Column="2"  />
+
+                <Label Text="250ml" HorizontalOptions="Center" FontSize="18" Grid.Row="1" Grid.Column="0"  />
+                <Label Text="$0.25"  HorizontalOptions="Center" FontSize="18" Grid.Row="1" Grid.Column="1"  />
+                <Label Text="1"  HorizontalOptions="Center" FontSize="18" Grid.Row="1" Grid.Column="2"  />
+                <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40" Grid.Row="1" Grid.Column="3" />
+                <ImageButton Source="minus.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="34"  Grid.Row="1" Grid.Column="4" />
+
+                <Label Text="400ml" HorizontalOptions="Center" FontSize="18" Grid.Row="2" Grid.Column="0"  />
+                <Label Text="$0.40"  HorizontalOptions="Center" FontSize="18" Grid.Row="2" Grid.Column="1"  />
+                <Label Text="1"  HorizontalOptions="Center" FontSize="18" Grid.Row="2" Grid.Column="2"  />
+                <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40"  Grid.Row="2" Grid.Column="3" />
+                <ImageButton Source="minus.jpg"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="34" Grid.Row="2" Grid.Column="4" />
+
+                <Label Text="1000ml" HorizontalOptions="Center" FontSize="18" Grid.Row="3" Grid.Column="0"  />
+                <Label Text="$0.50"  HorizontalOptions="Center" FontSize="18" Grid.Row="3" Grid.Column="1"  />
+                <Label Text="1"  HorizontalOptions="Center" FontSize="18" Grid.Row="3" Grid.Column="2"  />
+                <ImageButton Source="add.jpg" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="40"  Grid.Row="3" Grid.Column="3" />
+                <ImageButton Source="minus.jpg"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="34"  Grid.Row="3" Grid.Column="4" />
+
+
+
+
+            </Grid>
+            <Button x:Name="btnAgregar" Text="Agregar al Carrito"  TextColor="OrangeRed" Clicked="btnAgregar_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
